@@ -27,7 +27,7 @@ Stranica prikazuje sva naučena znanja o korišenju **Wordpress** tehnologijom k
 - pregledati programe, njihove trenere i sprave
 - pregledati trenere i njihove programe
 - pregledati sprave i njihove programe
-- pronaći lokacije na karti
+- pronaći lokacije teretana na karti
 
 ---
 
