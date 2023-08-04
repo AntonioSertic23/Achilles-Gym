@@ -1,44 +1,44 @@
 # Achilles Gym
 
-## Wordpress tema za teretanu
+## WordPress Theme for Gym
 
-Projekt Achilles Gym je nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta **CMS sustavi**.
+The Achilles Gym project originated in college as an assignment for the subject **CMS Systems**.
 
-Tema projekta je bila kreirati wordpress temu za teretanu koristeći custom post type-ove, taksonomije i custom meta box-ove.
+The project's theme was to create a WordPress theme for a gym, utilizing custom post types, taxonomies, and custom meta-boxes.
 
-Stranica prikazuje sva naučena znanja o korišenju **Wordpress** tehnologijom koja koristi **PHP** programski jezik i **MySQL** za bazu podataka.
+The website showcases all the knowledge acquired about using **WordPress**, which utilizes **PHP** programming language and **MySQL** for the database.
 
 [![My Skills](https://skills.thijs.gg/icons?i=wordpress,php,mysql)](https://skills.thijs.gg)
 
 ---
 
-### Administrativno sučelje
+### Administrative Interface
 
-- cpt **Program** sadrži cpt **Sprava** povezan preko custom meta box-a
-- cpt **Trener** sadrži cpt **Program** isto povezan preko custom meta box-a
-- tu je još i cpt **Zanimljivost**
-- svaki cpt također ima i svoju jedinstvenu taksonomiju
-
----
-
-### Na starnici je moguće:
-
-- pregledati zanimljivosti
-- pregledati programe, njihove trenere i sprave
-- pregledati trenere i njihove programe
-- pregledati sprave i njihove programe
-- pronaći lokacije teretana na karti
+- The **Program** custom post type includes the **Equipment** custom post type, connected via a custom meta-box.
+- The **Trainer** custom post type includes the **Program** custom post type, also connected via a custom meta-box.
+- There is also the **Interest** custom post type.
+- Each custom post type has its unique taxonomy.
 
 ---
 
-## Pokretanje projekta
+### On the website, you can:
 
-Potrebno je instalirati [XAMPP](https://www.apachefriends.org), te preko toga pokrenuti **Apache** i **MySQL**.
+- Browse through points of interest.
+- Explore programs, their trainers, and equipment.
+- View trainers and their programs.
+- View equipment and the associated programs.
+- Find gym locations on the map.
 
-Potom zalijepiti mapu **Achilles-Gym** u `C:\xampp\htdocs\` i promjeniti joj ime u `achilles_gym`.
+---
 
-Link za pristup bazi: [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php).
+## Project Setup
 
-Zatim u **phpmyadmin** kreirati bazu koja se zove `achilles_gym`(Character Set neka bude **Collation**) te potom importati `achilles_gym_final.sql` koji se nalazi ovdje u root-u projekta.
+You need to install [XAMPP](https://www.apachefriends.org) and run **Apache** and **MySQL** through it.
 
-Link za pristup aplikaciji: [http://localhost/achilles_gym/wp-admin/](http://localhost/achilles_gym/wp-admin/).
+Then, paste the **Achilles-Gym** folder into `C:\xampp\htdocs\` and rename it to `achilles_gym`.
+
+Link to access the database: [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php).
+
+In **phpMyAdmin**, create a database named `achilles_gym` (Character Set should be **Collation**), and then import `achilles_gym_final.sql` located in the project's root.
+
+Link to access the application: [http://localhost/achilles_gym/wp-admin/](http://localhost/achilles_gym/wp-admin/).
